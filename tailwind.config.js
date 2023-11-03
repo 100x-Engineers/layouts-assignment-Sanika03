@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "twitter-blue": "#1D9BF0",
+        "twitter-blue-hover": "#1871CA",
         "neutral-50": "#F9F9F9",
         "neutral-200": "#E4E4E4",
         "neutral-500": "#737373",
@@ -23,7 +24,8 @@ module.exports = {
       "normal": "normal"
     },
     borderRadius: {
-      "border-65": "65px"
+      "border-65": "65px",
+      "border-9999": "9999px",
     },
     boxShadow: {
       "box-shadow": "0px 8px 16px 0px rgba(0, 0, 0, 0.25)"
