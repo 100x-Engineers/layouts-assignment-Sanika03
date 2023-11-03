@@ -630,10 +630,6 @@ video {
   gap: 1.25rem;
 }
 
-.gap-7 {
-  gap: 1.75rem;
-}
-
 .gap-8 {
   gap: 2rem;
 }
@@ -652,6 +648,10 @@ video {
 
 .rounded-border-65 {
   border-radius: 65px;
+}
+
+.rounded-border-9999 {
+  border-radius: 9999px;
 }
 
 .border {
@@ -689,6 +689,15 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-twitter-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 155 240 / var(--tw-bg-opacity));
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-1 {
@@ -867,14 +876,14 @@ video {
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-twitter-blue-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 113 202 / var(--tw-bg-opacity));
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.group:focus-within .group-focus-within\:border-twitter-blue {
-  --tw-border-opacity: 1;
-  border-color: rgb(29 155 240 / var(--tw-border-opacity));
 }
 
 .group:focus-within .group-focus-within\:text-twitter-blue {
