@@ -6,12 +6,18 @@ module.exports = {
       colors: {
         "twitter-blue": "#1D9BF0",
         "neutral-50": "#F9F9F9",
+        "neutral-200": "#E4E4E4",
+        "neutral-500": "#737373",
         "neutral-700": "#404040",
         "neutral-1000": "#000000",
         "button-stroke": "#546A7A",
+        "secondary": "rgba(255, 255, 255, 0.6)"
     },
     fontFamily: {
       "inter": ['Inter', 'sans-serif']
+    },
+    fontSize: {
+      "15": "15px"
     },
     lineHeight: {
       "normal": "normal"
