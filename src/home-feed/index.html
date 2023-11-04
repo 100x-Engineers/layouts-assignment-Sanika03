@@ -16,6 +16,14 @@
             <img src="../../public/images/x.svg" alt="X icon"/>
         </div>
     </header>
-    
+    <section class="flex w-full self-stretch justify-around border-b border-b-neutral-700">
+        <div class="flex flex-col items-center hover:bg-neutral-800 w-full">
+            <input type="radio" name="tabs" id="for-you-tab" value="for-you-tab" class="peer/for-you-tab hidden w-full" checked/>
+            <label for="for-you-tab" class="text-neutral-400 text-base font-medium leading-normal w-full block cursor-pointer text-center py-4 peer-checked/for-you-tab:text-neutral-50">
+                For you
+            </label>
+            <div class="rounded-border-30 w-14 h-1 bg-twitter-blue hidden peer-checked/for-you-tab:block"></div>
+        </div>
+    </section>
 </body>
 </html>
