@@ -11,6 +11,7 @@ module.exports = {
         "neutral-400": "#A2A2A2",
         "neutral-500": "#737373",
         "neutral-700": "#404040",
+        "neutral-800": "#262626",
         "neutral-1000": "#000000",
         "button-stroke": "#546A7A",
         "searchbar-fill": "#212327",
