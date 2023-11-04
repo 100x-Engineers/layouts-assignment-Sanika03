@@ -574,12 +574,20 @@ video {
   height: 100vh;
 }
 
+.w-0 {
+  width: 0px;
+}
+
 .w-14 {
   width: 3.5rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .flex-shrink-0 {
@@ -634,6 +642,10 @@ video {
   gap: 0.25rem;
 }
 
+.gap-1\.25 {
+  gap: 5px;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -652,6 +664,10 @@ video {
 
 .gap-32 {
   gap: 8rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-5 {
