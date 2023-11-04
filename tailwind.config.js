@@ -8,6 +8,7 @@ module.exports = {
         "twitter-blue-hover": "#1871CA",
         "neutral-50": "#F9F9F9",
         "neutral-200": "#E4E4E4",
+        "neutral-400": "#A2A2A2",
         "neutral-500": "#737373",
         "neutral-700": "#404040",
         "neutral-1000": "#000000",
@@ -26,6 +27,7 @@ module.exports = {
     borderRadius: {
       "border-65": "65px",
       "border-9999": "9999px",
+      "border-30": "30px"
     },
     boxShadow: {
       "box-shadow": "0px 8px 16px 0px rgba(0, 0, 0, 0.25)"
