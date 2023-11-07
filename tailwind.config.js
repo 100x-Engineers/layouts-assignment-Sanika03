@@ -17,6 +17,7 @@ module.exports = {
         "button-stroke": "#546A7A",
         "searchbar-fill": "#212327",
         "secondary": "rgba(255, 255, 255, 0.6)",
+        "neutral-1000-60": "rgba(0, 0, 0, 0.60);"
     },
     fontFamily: {
       "inter": ['Inter', 'sans-serif']
@@ -32,7 +33,8 @@ module.exports = {
       "border-9999": "9999px",
       "border-30": "30px",
       "border-32": "32px",
-      "border-200": "200px"
+      "border-200": "200px",
+      "border-1000": "1000px"
     },
     boxShadow: {
       "box-shadow": "0px 8px 16px 0px rgba(0, 0, 0, 0.25)"
