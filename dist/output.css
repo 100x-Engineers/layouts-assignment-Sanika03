@@ -906,6 +906,10 @@ video {
   background-color: rgb(29 155 240 / var(--tw-bg-opacity));
 }
 
+.fill-neutral-500 {
+  fill: #737373;
+}
+
 .p-4 {
   padding: 1rem;
 }
